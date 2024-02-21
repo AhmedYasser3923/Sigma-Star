@@ -1,0 +1,167 @@
+@media (max-width : 1200px) {
+    nav .container .row{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    nav .row .bars {
+        display: block;
+    }
+    nav .container .row .nav-links {
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+        transition: all 1s;
+    }
+    nav .container .row .nav-links ul{
+        text-align: center;
+        padding:15px 0px;
+        display: flex;
+        flex-direction: column-reverse !important;
+        & li{
+            margin-bottom: 15px;
+        }
+    }
+    main #section-1 .container .row{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    main #section-1 .container .row .col-right{
+        width: 100%;
+    }
+    main #section-1 .container .row .col-left{
+        width: 100%;
+        text-align: center;
+        & img{
+            width: 70%;
+        }
+    }
+    main #section-6 .container .row{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width : 992px) {
+    main #section-3 .container .row{
+        flex-wrap:wrap ;
+    }
+    main #section-3 .container .row .col-left{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    main #section-3 .container .row .col-right{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    main #section-4 .container .row .child{
+        width: calc(100% / 3);
+    }
+    main #section-6 .container .row .col-left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    main #section-6 .container .row .col-right{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width : 772px) {
+    main #section-1 .container .row .col-left{
+        margin-top: 50px;
+    }
+    main #section-1 .container .row .col-right h1{
+        font-size: 40px;
+    }
+    main #section-1 .container .row .col-right p{
+    font-size: 20px;
+    }
+    main #section-2 .container .row{
+        flex-wrap: wrap;
+    }
+    main #section-2 .container .row .col-left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    main #section-2 .container .row .col-right{
+        width: 100%;
+    }
+    main #section-4 .container .row .child{
+        width: calc(100% / 2);
+    }
+
+    .name , .email{
+        width: 100% !important;
+        text-align: right !important;
+        margin-bottom: 30px;
+        & .form-control{
+            width: 100% !important;
+        }
+    }
+    .send{
+        width: 30%;
+    }
+    .footer-bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .copyright{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .credits{
+        width: 100%;
+    }
+    
+}
+@media (max-width : 500px) {
+    nav .container{
+        width: 100%;
+        padding: 0px 15px !important;
+    }
+    main #section-1 .container .row .col-left{
+        margin-top: 80px;
+    }
+    main #section-1 .container .row .col-right h1{
+        font-size: 30px;
+    }
+    main #section-1 .container .row .col-right p{
+    font-size: 15px;
+    }
+    main #section-1 .container .row .col-right button{
+    width: 25%;
+    }
+    main #section-4 .container .row .child{
+        width: 100%;
+    }
+    main #section-6 .container .row .col-right .info .phone p{
+        font-size: 12px !important;
+        padding: 0 0 10px 40px !important;
+    }
+    main #section-6 .container .row .col-right .info .email p{
+        font-size: 12px !important;
+        padding: 0 0 10px 40px !important;
+    }
+    main #section-6 .container .row .col-right .info .address p{
+        font-size: 12px !important;
+        padding: 0 0 10px 40px !important;
+    }
+    .social-links{
+        & a{
+          padding: 10px !important;
+         display: inline-block !important;
+        & i{
+        font-size: 20px !important;
+        }
+      }
+}
+}
+@media (max-width : 370px) {
+    .social-links{
+        & a{
+          padding: 8px !important;
+         display: inline-block !important;
+        & i{
+        font-size: 12px !important;
+        }
+      }
+}
+}
